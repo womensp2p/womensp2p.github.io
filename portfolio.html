@@ -99,14 +99,15 @@
     <p class="lead">This is a simple React Native application to handle the following functionalities</p>
     <hr class="my-4">
     <ul class="fa-ul">
-      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Ability to upload any media file (be it audio recording, text or video) or record from the application to send an alert post to all possible social media (Facebook, twitter, etc) </li>
-      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Offline queueing system to publish the messages when the internet bandwidth is available</li>
-      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Support to deploy the application to devices like IVR, Radios, brick phones which are being used frequently by the women from Kenya</li>
-      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Ability to send and receive messages</li>
-      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Build a network that helps women candidates feel “less alone", Community like tab to help receive support messages from other women across the world</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>bility to upload any media file(video, image), record from the application.</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Based on the network connectivity, either the application uses the offline communication services like Twilio or Bandwidth to pass the user input to the toolkit server.</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Provide support for devices like brick mobile phones and radio.</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Enable location tracking to provide immediate help if required.</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Use of certain keywords from the user to grade the severity of the issue.</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Should be able to deploy the React Native application to IOS, Web, and Android.</li>
     </ul>
     <p class="lead">
-      <a class="btn btn-primary btn-lg" href="https://github.com/womensp2p/P2P-toolkit-webclient" target="_blank" role="button">Link to the Github Repo</a>
+      <a class="btn btn-primary btn-lg" href="https://github.com/womensp2p/GSoC-Projects/wiki/Women's-P2P-toolkit-web-client" target="_blank" role="button">Link to wiki page</a>
     </p>
   </div>
 </div>
@@ -117,14 +118,14 @@
     <p class="lead">Lightweight server logic built in Django</p>
     <hr class="my-4">
     <ul class="fa-ul">
-      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Ability to provide APIs to receive messages(in any media) and upload to different social media websites(like facebook, twitter) </li>
-      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Explore possibilities for human and machine translation</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Receive messages(in any media) and upload to different social media sites(facebook, twitter, Google+, Instagram, Youtube) for support</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Translation module to provide the ability to translate to English if the incoming messages are in local languages.</li>
       <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Interaction with the account system to make appropriate DB calls to update record under every user</li>
-      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Integration logic to handle with devices like IVR, Radio and brick phones</li>
-      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Logic to record offline and upload at a scheduled time (better bandwidth in Kenya late at night)</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Escalate the issue based on the severity to all the local rescue team for immediate support.</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Keep a track of all the support messages from the above-mentioned media and send back to the user.</li>
     </ul>
     <p class="lead">
-      <a class="btn btn-primary btn-lg" href="https://github.com/womensp2p/P2P-toolkit-server" target="_blank" role="button">Link to the Github Repo</a>
+      <a class="btn btn-primary btn-lg" href="https://github.com/womensp2p/GSoC-Projects/wiki/Women's-P2P-toolkit-server" target="_blank" role="button">Link to wiki page</a>
     </p>
   </div>
 </div>
@@ -132,14 +133,47 @@
 <div class="container">
   <div class="jumbotron">
     <h3 class="display-5">Women's P2P toolkit Account system </h3>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <p class="lead"></p>
     <hr class="my-4">
     <ul class="fa-ul">
       <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Schema design to handle with profiles and accounts and store history of the user activity</li>
       <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Schema design to store all sorts of media</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Use of SQLAlchemy to provide REST APIs to make DB changes.</li>
+
     </ul>
     <p class="lead">
-      <a class="btn btn-primary btn-lg" href="https://github.com/womensp2p/P2P-toolkit-account-system" target="_blank" role="button">Link to the Github Repo</a>
+      <a class="btn btn-primary btn-lg" href="https://github.com/womensp2p/GSoC-Projects/wiki/Women's-P2P-toolkit-account-system" target="_blank" role="button">Link to wiki page</a>
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="jumbotron">
+    <h3 class="display-5">Election toolkit app</h3>
+    <p class="lead">The Women's Election Toolkit will be React Native app (which is a plugin which sits within the toolkit web client) that enables women candidates to connect with their (frequently illiterate) constituents (through bulk messaging in a variety of media, for both brick and smartphones). The app will:</p>
+    <hr class="my-4">
+    <ul class="fa-ul">
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Enable bulk messaging to constituents, using both brick and smartphones (using above database)</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Facilitate recording of testimony (as in the Web portal described above).</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Enable the reporting of threats, corruption, and violence (using same testimony feature)</li>
+      <li><i class="fa-li fa fa-shield fa-rotate-270"></i>Allow for sending and receiving messages of support, and Enable fundraising from global sources.</li>
+    </ul>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="https://github.com/womensp2p/GSoC-Projects/wiki/Election-Toolkit-App" target="_blank" role="button">Link to wiki page</a>
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="jumbotron">
+    <h3 class="display-5">Election toolkit app</h3>
+    <p class="lead"></p>
+    <hr class="my-4">
+A portal where women candidates can video record (or upload) testimony about their experiences and women everywhere can leave messages of support using a variety of media. This testimony is a foundation for the tools we build, and the messages provide much-needed community and connection for women candidates. Messages will stream on a separate page. Most women candidates we have spoken with have requested this simple interface to record and post their video in one step. It is prohibitively cumbersome for women in Kenya (who have slow connections and don't use multimedia technology every day) to record in one place (like YouTube) and then upload a file somewhere else. *In the future, this "Testimony" portal will be adapted for other projects, including ending violence against women, ending girl trafficking, and other violence-related issues.
+<br>
+
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="https://github.com/womensp2p/GSoC-Projects/wiki/Testimony-and-Message-Web-Portal" target="_blank" role="button">Link to wiki page</a>
     </p>
   </div>
 </div>
